@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * printf_string - print a string.
- * @val: argumen t.
+ * printf_string - print a string
+ * @val: argumen t
  * Return: the length of the string.
  */
 
@@ -16,6 +16,7 @@ if (s == NULL)
 {
 s = "(null)";
 len = _strlen(s);
+
 for (i = 0; i < len; i++)
 _putchar(s[i]);
 return (len);

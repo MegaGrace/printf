@@ -15,6 +15,7 @@ for (c = 0; s[c] != 0; c++)
 return (c);
 
 }
+
 /**
  * _strlenc - Strlen function but applied for constant char pointer s
  * @s: Type char pointer
