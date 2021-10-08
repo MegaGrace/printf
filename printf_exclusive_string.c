@@ -12,9 +12,11 @@ char *s;
 int i, len = 0;
 int cast;
 
-s = va_arg(val, char *);
+s = va_arg(val, char*);
 if (s == NULL)
-		s = "(null)";
+{
+s = "(null)";
+}
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] < 32 || s[i] >= 127)

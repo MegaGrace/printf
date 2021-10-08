@@ -20,7 +20,7 @@ num /= 8;
 counter++;
 }
 counter++;
-array = malloc(counter * sizeof(int));
+array = malloc(counter *sizeof(int));
 
 for (i = 0; i < counter; i++)
 {
