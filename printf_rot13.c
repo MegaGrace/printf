@@ -14,14 +14,17 @@ char alpha[] = {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 char beta[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
 
 if (s == NULL)
+{
 s = "(null)";
+}
 for (i = 0; s[i]; i++)
 {
 k = 0;
-		for (j = 0; alpha[j] && !k; j++)
-		{
-			if (s[i] == alpha[j])
-			{
+}
+for (j = 0; alpha[j] && !k; j++)
+{
+if (s[i] == alpha[j])
+{
 _putchar(beta[j]);
 counter++;
 k = 1;
