@@ -39,6 +39,5 @@ i++;
 }
 }
 _putchar(last + '0');
-
 return (i);
 }
