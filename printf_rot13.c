@@ -35,6 +35,5 @@ if (!k)
 _putchar(s[i]);
 counter++;
 }
-}
 return (counter);
 }
